@@ -1,0 +1,13 @@
+object_detection:
+  image: datascience
+  container_name: datascience
+  restart: always
+  environment:
+     - TERM=xterm
+  hostname: '127.0.0.1'
+  ports:
+     - "8888:8888"         #JupyterNB
+
+  #volumes:
+     #path in User:/root/ rest of path
+
